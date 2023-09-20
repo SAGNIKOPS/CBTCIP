@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+}
+body
+{
+    background: radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%);
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.calculator
+{
+    background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
+
+
+    padding: 15px;
+    border-radius: 5%;
+    box-shadow: inset 5px 5px 12px 323232,
+                      5px 5px 12px rgba(0,0,0,.16);
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+    box-shadow: 10px 10px 10px rgba(0,0,0,.8);
+    border: 2px solid black;
+}
+input
+{
+    grid-column: span 4;
+    height: 70px;
+    width: 280px;
+    background-color: 323232;
+    box-shadow: inset -5px -5px 12px 323232,
+                    inset 5px 5px 12px rgba(0,0,0,.16);
+    border:none;
+    border-radius: 20px;
+    color: grey;
+    text-align: end;
+    margin: auto;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+button
+{
+    height: 50px;
+    width: 50px;
+    background-color: 323232;
+    box-shadow: -5px -5px 12px 323232
+                5px   5px  12px rgba(0,0,0,0.16);
+    border: none;
+    border-radius: 50% ;
+    margin: 8px;
+    box-shadow: 5px 10px 20px 5px rgb(134, 134, 134) inset;
+}
+.equal
+{
+    width: 200px;
+    border-radius: 5%;
+}
+.cool:hover
+{
+    box-shadow: 5px 5px 10px rgba(0,0,0,.8);
+    font-size: 23px;
+    
+    color: black;
+    cursor: pointer;
+}
+#output-screen
+{
+    box-shadow: 5px 10px 20px 5px rgb(220, 220, 220) inset;
+}
